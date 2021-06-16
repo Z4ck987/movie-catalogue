@@ -6,7 +6,7 @@ import '../styles/main.scss';
 const app = new App({
   button: document.querySelector('#hamburgerButton'),
   drawer: document.querySelector('#navigationDrawer'),
-  content: document.getElementById('mainContent'),
+  content: document.querySelector('#mainContent'),
 });
 
 window.addEventListener('hashchange', () => {
